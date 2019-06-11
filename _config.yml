@@ -82,6 +82,9 @@ footer:
     enable: false
     icp:
 
+  # visitors count
+  counter: true
+  
   # Any custom text can be defined here.
   #custom_text: Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a>
 

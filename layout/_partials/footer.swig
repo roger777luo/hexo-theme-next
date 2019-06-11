@@ -37,6 +37,21 @@
   {% endif %}
 </div>
 
+{% if theme.footer.counter %}
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="site-uv" title="总访客量">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="site-pv" title="总访问量">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+    <span class="post-meta-divider">|</span>
+
+{% endif %}
+
 {% if theme.footer.theme.enable %}
 <div class=BbeiAn-info">
   <a href="http://www.miitbeian.gov.cn">粤ICP备17113681号-1</a>
@@ -48,6 +63,7 @@
   <div class="footer-custom">{#
   #}{{ theme.footer.custom_text }}{#
 #}</div>
+
 
 
 {% endif %}
