@@ -369,8 +369,8 @@ reward_settings:
 reward:
   #打赏功能
   
-  wechatpay: /images/wechat.png
-  alipay: /images/alipay.png
+  wechatpay: https://pic-wm-1251286439.cos.ap-guangzhou.myqcloud.com/wechat.jpg
+  alipay: https://pic-wm-1251286439.cos.ap-guangzhou.myqcloud.com/alipay.jpg
 
   #wechatpay: /images/wechatpay.png
   #alipay: /images/alipay.png
